@@ -11,5 +11,10 @@ public class Feladat17 {
 
         double elem1 = 0;
         double elem2 = 0;
+
+        for (int i = 0; i < t1.length; i++) {
+            t1[i] = Math.floor((Math.random()*100)+1);
+        }
+
     }
 }
